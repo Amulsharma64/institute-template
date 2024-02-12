@@ -89,10 +89,15 @@
 }
 .logo {
 	margin-right: 1rem;
+	margin-top: 10px;
 	font-size: 1.5em;
 	font-family: "Times New Roman", Times, serif;
 	font-style: oblique; 
-	 color: var(--primary-color);
+	 cursor: pointer;
+}
+.logo a{
+	text-decoration: none;
+	color: var(--primary-color);
 }
 @media screen and (max-width: 800px){
 	#menu ul {background:#444444;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none;text-align:left;}
